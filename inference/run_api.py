@@ -27,6 +27,7 @@ MODEL_LIMITS = {
     "claude-instant-1": 100_000,
     "claude-2": 100_000,
     "gpt-3.5-turbo-16k-0613": 16_385,
+    "gpt-3.5-turbo-0125": 16_385,
     "gpt-3.5-turbo-0613": 4_097,
     "gpt-3.5-turbo-1106": 16_385,
     "gpt-4-32k-0613": 32_768,
@@ -39,6 +40,7 @@ MODEL_COST_PER_INPUT = {
     "claude-instant-1": 0.00000163,
     "claude-2": 0.00001102,
     "gpt-3.5-turbo-16k-0613": 0.0000015,
+    "gpt-3.5-turbo-0125": 0.0000015,
     "gpt-3.5-turbo-0613": 0.0000015,
     "gpt-3.5-turbo-1106": 0.000001,
     "gpt-35-turbo-0613": 0.0000015,
@@ -53,6 +55,7 @@ MODEL_COST_PER_OUTPUT = {
     "claude-instant-1": 0.00000551,
     "claude-2": 0.00003268,
     "gpt-3.5-turbo-16k-0613": 0.000002,
+    "gpt-3.5-turbo-0125": 0.000002,
     "gpt-3.5-turbo-16k": 0.000002,
     "gpt-3.5-turbo-1106": 0.000002,
     "gpt-35-turbo-0613": 0.000002,
@@ -66,6 +69,7 @@ MODEL_COST_PER_OUTPUT = {
 # used for azure
 ENGINES = {
     "gpt-3.5-turbo-16k-0613": "gpt-35-turbo-16k",
+    "gpt-3.5-turbo-0125": "gpt-3.5-turbo",
     "gpt-4-0613": "gpt-4",
     "gpt-4-32k-0613": "gpt-4-32k",
 }
